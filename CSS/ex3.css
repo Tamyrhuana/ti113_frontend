@@ -18,11 +18,14 @@
         justify-content: center;
         flex-direction: column;
         text-align: center;
+        color: white;
     }
 
     a {
         background-color: rgb(74, 159, 199);
         margin: 3px;
+        text-decoration: none;
+        color: white;
     }
 
     p,
@@ -33,6 +36,7 @@
         background-color: rgb(74, 159, 199);
         text-align: center;
         margin: 3px;
+        color: white;
     }
 
     img {
@@ -54,9 +58,16 @@
     a {
         background-color: rgb(74, 159, 199);
         margin: 3px;
+        text-decoration: none;
+        color: white;
+    }
+    section.artigo{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        color: white;
     }
 
-    }
 
     p,
     footer {
@@ -66,6 +77,7 @@
         background-color: rgb(74, 159, 199);
         text-align: center;
         margin: 3px;
+        color: white;
     }
 
     img {
@@ -73,6 +85,7 @@
         height: auto;
         margin-bottom: 10px;
     }
+}
 
 
 @media only screen and (min-width: 992px) {
@@ -84,9 +97,25 @@
     a {
         background-color: rgb(74, 159, 199);
         margin: 3px;
+        text-decoration: none;
+        color: white;
     }
 
-    p,
+    section.artigo{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100vw;
+        color: white;
+    }
+    p{
+        display: flex;
+        flex-direction: row;
+        width: 49vw;
+        background-color: rgb(74, 159, 199);
+        color: white;
+    }
+
     footer {
         display: flex;
         justify-content: center;
@@ -94,7 +123,9 @@
         background-color: rgb(74, 159, 199);
         text-align: center;
         margin: 3px;
+        color: white;
     }
+   
 
     img {
         width: 100vw;
